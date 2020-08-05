@@ -1,35 +1,3 @@
-@font-face {
-  font-family: "MontserratAlternates-Black";
-  font-display: swap;
-  src: url("../fonts/MontserratAlternates-Black.woff") format("woff"), url("../fonts/MontserratAlternates-Black.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "MontserratAlternates-BlackItalic";
-  font-display: swap;
-  src: url("../fonts/MontserratAlternates-BlackItalic.woff") format("woff"), url("../fonts/MontserratAlternates-BlackItalic.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "MontserratAlternates-Bold";
-  font-display: swap;
-  src: url("../fonts/MontserratAlternates-Bold.woff") format("woff"), url("../fonts/MontserratAlternates-Bold.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "MontserratAlternates-BoldItalic";
-  font-display: swap;
-  src: url("../fonts/MontserratAlternates-BoldItalic.woff") format("woff"), url("../fonts/MontserratAlternates-BoldItalic.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-
 body {
   font-size: 20px;
   color: red;
