@@ -1,6 +1,3 @@
-
-let fileinclude = require('gulp-file-include');
-let autoprefixer = require("gulp-autoprefixer");
 let project_folder = require("path").basename(__dirname); 
 let source_folder = "#src";
 let fs = require("fs");
@@ -36,6 +33,7 @@ let { src, dest } = require('gulp'),
     browsersync = require("browser-sync").create(),
     del = require("del"),
     scss = require("gulp-sass"),
+    fileinclude = require('gulp-file-include');
     autoPrefixer = require("gulp-autoprefixer"),
     group_media = require("gulp-group-css-media-queries"),
     clean_css = require("gulp-clean-css"),
@@ -77,7 +75,7 @@ function css() {
         .pipe(group_media()
         )
 
-        .pipe(autoprefixer({
+        .pipe(autoPrefixer({
             overrideBrowserlist: ["last 5 versions"],
             cascade: true
         })
